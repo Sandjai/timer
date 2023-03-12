@@ -1,0 +1,21 @@
+@import './variables'
+
+.App
+
+  border: 1px solid $black
+  display: flex
+  justify-content: center
+  align-items: center
+
+  user-select: none
+  box-shadow: 2px 2px $orange, -2px 0 5px $violet, 1px -2px 5px $green
+
+  @media screen and (min-width: 961px)
+    height: 40vh
+    width: 60vw
+    border-radius: 20vh
+
+  @media screen and (max-width: 960px)
+
+    width: 95vw
+    border-radius: 10vh
